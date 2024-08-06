@@ -1,0 +1,28 @@
+body{
+    background-color: wheat;
+}
+
+.Pesquisa{
+    width: 400px;
+    height: 40px;
+    background-color: white;
+
+    display: flex;
+    border: 3px solid black;
+    border-radius: 10px;
+    justify-content: flex-end;
+    justify-items: center;
+
+     align-items: row;
+     margin: 2px;
+}
+.Pesquisa div{
+    width: 20px;
+    height: 20px;
+    
+    border-radius: 5px;
+    border: 2px solid black;
+    
+    background-color: yellow;
+    margin: 8px;
+}

@@ -1,0 +1,27 @@
+.container div{
+ display: inline-block;
+
+ width: 180vw;
+ height: 200px;
+ 
+
+ background-color:red;
+ border: 5px solid black;
+ border-radius: 20px;
+ 
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   
+
+    gap: 24px;
+    width: 100vw;
+    height: 400px;
+
+
+    background-color: aqua;
+}
